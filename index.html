@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vivre L'amour — Lingerie e autoestima em todos os momentos.">
+  <title>Vivre L'amour | Lingerie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+  <div class="topbar">Frete e condições especiais pelo WhatsApp • Atendimento personalizado</div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#inicio" class="brand" aria-label="Vivre L'amour">
+        <span class="brand-heart">♡</span>
+        <span class="brand-main">Vivre</span>
+        <span class="brand-sub">L'AMOUR</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#novidades">Novidades</a>
+        <a href="#revendedora">Seja revendedora</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Buscar produtos">⌕</button>
+        <button class="icon-btn cart-btn" id="cartBtn" aria-label="Abrir carrinho">
+          🛍
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#novidades">Novidades</a>
+      <a href="#revendedora">Seja revendedora</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">NOVA COLEÇÃO</span>
+          <h1>Para você se sentir <em>ainda mais linda.</em></h1>
+          <p>Peças delicadas, elegantes e especiais para acompanhar todos os seus momentos.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#produtos">Ver produtos</a>
+            <a class="btn btn-secondary" href="#revendedora">Seja revendedora</a>
+          </div>
+          <div class="hero-points">
+            <span>✦ Atendimento personalizado</span>
+            <span>♡ Peças selecionadas</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Lingerie Vivre L'amour">
+          <div class="hero-image-overlay"></div>
+          <div class="hero-image-glow"></div>
+          <div class="hero-badge">Vivre<br><small>L'AMOUR</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-strip">
+      <div class="container">
+        <p class="section-kicker">ENCONTRE O SEU FAVORITO</p>
+        <div class="category-pills" id="categoryPills"></div>
+      </div>
+    </section>
+
+    <section class="products-section" id="produtos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">CATÁLOGO VIVRE L'AMOUR</span>
+            <h2>Nossas peças</h2>
+          </div>
+          <button class="filter-reset" id="resetFilter">Ver todos</button>
+        </div>
+        <div id="productSections"></div>
+      </div>
+    </section>
+
+    <section class="banner" id="novidades">
+      <div class="container banner-content">
+        <div class="banner-text">
+          <span class="eyebrow">COLEÇÃO ESPECIAL</span>
+          <h2>Sinta-se linda <em>todos os dias.</em></h2>
+          <p>Conforto, beleza e delicadeza para valorizar a sua essência.</p>
+          <a href="#produtos" class="btn btn-dark">Conhecer a coleção</a>
+        </div>
+        <div class="banner-shapes">
+          <div class="shape shape-a"></div>
+          <div class="shape shape-b"></div>
+          <div class="shape shape-c"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefits-grid">
+        <article><span>✦</span><h3>Peças selecionadas</h3><p>Modelos escolhidos com carinho.</p></article>
+        <article><span>♡</span><h3>Atendimento humano</h3><p>Conte com a gente pelo WhatsApp.</p></article>
+        <article><span>☏</span><h3>Compra simples</h3><p>Monte seu carrinho e envie seu pedido.</p></article>
+        <article><span>⌘</span><h3>Revenda</h3><p>Uma oportunidade para fazer renda extra.</p></article>
+      </div>
+    </section>
+
+    <section class="reseller" id="revendedora">
+      <div class="container reseller-grid">
+        <div class="reseller-art">
+          <div class="reseller-circle"></div>
+          <div class="reseller-tag">Vivre<br><span>parceiras</span></div>
+          <div class="reseller-product"></div>
+        </div>
+        <div class="reseller-copy">
+          <span class="eyebrow">FAÇA PARTE DO NOSSO TIME</span>
+          <h2>Transforme sua paixão por moda em <em>renda extra.</em></h2>
+          <p>Trabalhe com produtos que encantam mulheres e conte com uma marca preparada para crescer ao seu lado.</p>
+          <ul>
+            <li>✓ Produtos de qualidade</li>
+            <li>✓ Catálogo sempre atualizado</li>
+            <li>✓ Suporte para revendedoras</li>
+            <li>✓ Oportunidade de renda extra</li>
+          </ul>
+          <button class="btn btn-primary" id="resellerBtn">Quero ser revendedora</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container about-inner">
+        <span class="brand-mark">♡</span>
+        <span class="eyebrow">VIVRE L'AMOUR</span>
+        <h2>Autoestima para o verão, academia e seus <em>momentos únicos.</em></h2>
+        <p>Uma marca pensada para mulheres que querem se sentir bonitas, confiantes e confortáveis em todas as fases e momentos.</p>
+      </div>
+    </section>
+
+    <section class="instagram">
+      <div class="container">
+        <div class="section-heading centered">
+          <div>
+            <span class="eyebrow">SIGA A GENTE</span>
+            <h2>@vivre_lamour2024</h2>
+          </div>
+          <a class="btn btn-secondary" href="https://instagram.com/vivre_lamour2024" target="_blank" rel="noopener">Seguir no Instagram</a>
+        </div>
+        <div class="insta-grid">
+          <div class="insta insta-1">♡</div><div class="insta insta-2"></div><div class="insta insta-3">Vivre</div>
+          <div class="insta insta-4"></div><div class="insta insta-5">♡</div><div class="insta insta-6"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="brand footer-brand"><span class="brand-heart">♡</span><span class="brand-main">Vivre</span><span class="brand-sub">L'AMOUR</span></a>
+        <p>Lingerie e autoestima para todos os seus momentos.</p>
+      </div>
+      <div><h4>Contato</h4><p>Rua Dorgival Pinheiro, 813<br>Centro, Açailândia - MA</p><p>WhatsApp: (99) 99999-9999</p></div>
+      <div><h4>Links</h4><a href="#produtos">Produtos</a><a href="#revendedora">Seja revendedora</a><a href="https://instagram.com/vivre_lamour2024" target="_blank" rel="noopener">Instagram</a></div>
+    </div>
+    <div class="footer-bottom container">© <span id="year"></span> Vivre L'amour. Todos os direitos reservados.</div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <button class="close-overlay" id="closeSearch">×</button>
+      <span class="eyebrow">BUSCAR NO CATÁLOGO</span>
+      <input id="searchInput" type="search" placeholder="Ex.: conjunto rosa, renda..." autocomplete="off">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <div><span class="eyebrow">SEU PEDIDO</span><h3>Meu carrinho</h3></div>
+      <button class="close-cart" id="closeCart">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">
+      <div>🛍</div><h3>Seu carrinho está vazio</h3><p>Adicione suas peças favoritas para começar seu pedido.</p>
+      <button class="btn btn-primary" id="continueShopping">Ver produtos</button>
+    </div>
+    <div class="cart-footer" id="cartFooter">
+      <div class="cart-total"><span>Subtotal</span><strong id="cartTotal">R$ 0,00</strong></div>
+      <button class="btn btn-primary btn-full" id="checkoutBtn">Finalizar no WhatsApp</button>
+      <p class="cart-note">Você confirma os detalhes do pedido diretamente pelo WhatsApp.</p>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="productModal">
+    <div class="modal-card product-modal-card">
+      <button class="modal-close" data-close="productModal">×</button>
+      <div id="productModalContent"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="checkoutModal">
+    <div class="modal-card form-modal">
+      <button class="modal-close" data-close="checkoutModal">×</button>
+      <span class="eyebrow">QUASE LÁ</span>
+      <h2>Seus dados para o pedido</h2>
+      <p>Essas informações serão adicionadas à mensagem do WhatsApp.</p>
+      <form id="checkoutForm">
+        <label>Seu nome<input type="text" id="customerName" required placeholder="Digite seu nome"></label>
+        <label>Sua cidade<input type="text" id="customerCity" required placeholder="Ex.: Açailândia"></label>
+        <label>Seu WhatsApp<input type="tel" id="customerPhone" required placeholder="(99) 99999-9999"></label>
+        <button class="btn btn-primary btn-full" type="submit">Enviar pedido no WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="resellerModal">
+    <div class="modal-card form-modal">
+      <button class="modal-close" data-close="resellerModal">×</button>
+      <span class="eyebrow">QUERO REVENDER</span>
+      <h2>Faça parte da Vivre L'amour</h2>
+      <p>Preencha seus dados e fale diretamente com a nossa equipe.</p>
+      <form id="resellerForm">
+        <label>Nome<input type="text" id="resellerName" required placeholder="Seu nome"></label>
+        <label>WhatsApp<input type="tel" id="resellerPhone" required placeholder="(99) 99999-9999"></label>
+        <label>Cidade<input type="text" id="resellerCity" required placeholder="Sua cidade"></label>
+        <label>Estado<input type="text" id="resellerState" required placeholder="Ex.: MA"></label>
+        <button class="btn btn-primary btn-full" type="submit">Quero falar sobre revenda</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <a class="whatsapp-float" id="whatsappFloat" href="#" aria-label="Falar no WhatsApp">☏</a>
+
+  <script src="/app/script.js"></script>
+</body>
+</html>
