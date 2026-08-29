@@ -24,7 +24,7 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}.container{width:
       rgba(120,20,50,.16) 0%,
       transparent 30%,
       rgba(255,228,235,.22) 100%),
-    url("assets/hero-lingerie.webp");
+    url("/assets/hero-lingerie.webp");
   background-size:cover;
   background-position:center;
   isolation:isolate;
